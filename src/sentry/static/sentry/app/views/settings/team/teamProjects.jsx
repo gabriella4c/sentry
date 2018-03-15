@@ -1,6 +1,5 @@
 import React from 'react';
 import createReactClass from 'create-react-class';
-import {Box} from 'grid-emotion';
 import Reflux from 'reflux';
 import styled from 'react-emotion';
 
@@ -95,21 +94,17 @@ const TeamProjects = createReactClass({
   projectPanelcontents(projects) {
     return projects.length ? (
       sortProjects(projects).map((project, i) => (
-        <PanelItem p={0} key={project.id} align="center">
-          <Box p={2} flex="1">
-            <ProjectListItem project={project} organization={this.context.organization} />
-          </Box>
-          <Box p={2}>
-            <Button
-              size="small"
-              onClick={() => {
-                this.handleLinkProject(project, 'remove');
-              }}
-            >
-              <RemoveIcon /> {t('Remove')}
-            </Button>
-          </Box>
-        </PanelItem>
+        <StyledPanelItem key={project.id}>
+          <ProjectListItem project={project} organization={this.context.organization} />
+          <Button
+            size="small"
+            onClick={() => {
+              this.handleLinkProject(project, 'remove');
+            }}
+          >
+            <RemoveIcon /> {t('Remove')}
+          </Button>
+        </StyledPanelItem>
       ))
     ) : (
       <EmptyMessage>{t("This team doesn't have access to any projects.")}</EmptyMessage>
@@ -179,6 +174,12 @@ const RemoveIcon = styled(props => (
   min-height: 1.25em;
   min-width: 1.25em;
   margin-right: 0.5em;
+`;
+
+const StyledPanelItem = styled(PanelItem)`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 `;
 
 export default TeamProjects;
