@@ -1,6 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ProjectTeamsSettings render() renders 1`] = `
+.glamor-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.glamor-1 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 <SideEffect(DocumentTitle)
   title="Sentry"
 >
@@ -13,7 +35,9 @@ exports[`ProjectTeamsSettings render() renders 1`] = `
         hasButtons={true}
         key="header"
       >
-        <PanelHeaderContent>
+        <div
+          className="glamor-0 glamor-1"
+        >
           <div>
             Team
           </div>
@@ -23,10 +47,12 @@ exports[`ProjectTeamsSettings render() renders 1`] = `
               items={
                 Array [
                   Object {
-                    "label": <TeamDropdownElement>
+                    "label": <div
+                      className="css-tkw8z0-verticalPaddingSmall css-1con10a-horizontalPaddingExtaSmall"
+                    >
                       #
                       team-slug-2
-                    </TeamDropdownElement>,
+                    </div>,
                     "searchKey": "team-slug-2",
                     "value": "2",
                   },
@@ -35,17 +61,22 @@ exports[`ProjectTeamsSettings render() renders 1`] = `
               menuHeader={
                 <StyledTeamsLabel>
                   Teams
-                  <StyledCreateTeamLink
+                  <Link
+                    style={
+                      Object {
+                        "float": "right",
+                      }
+                    }
                     to="/organizations/org-slug/teams/new/"
                   >
                     Create Team
-                  </StyledCreateTeamLink>
+                  </Link>
                 </StyledTeamsLabel>
               }
               onSelect={[Function]}
             />
           </div>
-        </PanelHeaderContent>
+        </div>
       </PanelHeader>
       <PanelBody
         direction="column"

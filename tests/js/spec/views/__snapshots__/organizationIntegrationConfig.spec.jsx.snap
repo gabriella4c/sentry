@@ -55,12 +55,13 @@ exports[`OrganizationIntegrationConfig render() with one integration renders 1`]
 }
 
 .glamor-25 {
+  padding-top: 8px;
+  padding-bottom: 8px;
   border-bottom: 1px solid;
   border-radius: 0 0;
   text-transform: uppercase;
   font-size: 13px;
   line-height: 1;
-  padding: 8px 0;
 }
 
 .glamor-21 {

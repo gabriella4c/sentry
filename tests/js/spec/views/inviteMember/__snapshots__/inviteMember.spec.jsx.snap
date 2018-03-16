@@ -57,12 +57,15 @@ exports[`CreateProject render() should render roles when available and allowed, 
 }
 
 .glamor-17 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
   border-bottom: 1px solid;
   border-radius: 0 0;
   text-transform: uppercase;
   font-size: 13px;
   line-height: 1;
-  padding: 15px 20px;
 }
 
 .glamor-13 {

@@ -184,8 +184,9 @@ const AutoCompleteItem = styled('div')`
   background-color: ${p =>
     p.index == p.highlightedIndex ? p.theme.offWhite : 'transparent'};
   padding: 4px 8px;
-  cursor: pointer;
+
   &:hover {
+    cursor: pointer;
     background-color: ${p => p.theme.offWhite};
   }
 `;

@@ -1,7 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`OrganizationTeamProjects Should render 1`] = `
-.glamor-64 {
+.glamor-21 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.glamor-22 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.glamor-62 {
   background: #fff;
   border: 1px solid;
   margin-bottom: NaNpx;
@@ -9,12 +31,15 @@ exports[`OrganizationTeamProjects Should render 1`] = `
 }
 
 .glamor-30 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
   border-bottom: 1px solid;
   border-radius: 0 0;
   text-transform: uppercase;
   font-size: 13px;
   line-height: 1;
-  padding: 15px 20px;
 }
 
 .glamor-26 {
@@ -31,21 +56,6 @@ exports[`OrganizationTeamProjects Should render 1`] = `
   font-size: inherit;
   text-transform: inherit;
   margin: 0;
-}
-
-.glamor-21 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
 }
 
 .glamor-17 {
@@ -80,22 +90,7 @@ exports[`OrganizationTeamProjects Should render 1`] = `
   margin-left: 0.33em;
 }
 
-.glamor-60 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.glamor-55 {
+.glamor-54 {
   box-sizing: border-box;
   padding: 16px;
   display: -webkit-box;
@@ -103,21 +98,25 @@ exports[`OrganizationTeamProjects Should render 1`] = `
   display: -ms-flexbox;
   display: flex;
   border-bottom: 1px solid;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.glamor-55:last-child {
+.glamor-54:last-child {
   border: 0;
 }
 
@@ -152,300 +151,396 @@ exports[`OrganizationTeamProjects Should render 1`] = `
     }
   }
 >
-  <div>
-    <Panel>
-      <StyledPanel>
-        <div
-          className="glamor-64 glamor-65"
+  <Panel>
+    <StyledPanel>
+      <div
+        className="glamor-62 glamor-63"
+      >
+        <PanelHeader
+          hasButtons={true}
         >
-          <PanelHeader>
-            <StyledPanelHeader>
-              <Component
+          <StyledPanelHeader
+            hasButtons={true}
+          >
+            <Component
+              className="glamor-30 glamor-31"
+              hasButtons={true}
+            >
+              <div
                 className="glamor-30 glamor-31"
               >
-                <div
-                  className="glamor-30 glamor-31"
-                >
-                  <StyledPanelHeading>
-                    <Component
+                <StyledPanelHeading>
+                  <Component
+                    className="glamor-26 glamor-23"
+                  >
+                    <PanelHeading
                       className="glamor-26 glamor-23"
                     >
-                      <PanelHeading
-                        className="glamor-26 glamor-23"
+                      <div
+                        className="glamor-23 glamor-24 glamor-25"
                       >
                         <div
-                          className="glamor-23 glamor-24 glamor-25"
+                          className="glamor-21 glamor-22"
                         >
-                          <PanelHeaderContentContainer>
-                            <div
-                              className="glamor-21 glamor-22"
-                            >
-                              Projects
-                              <div
-                                style={
+                          Projects
+                          <div
+                            style={
+                              Object {
+                                "textTransform": "none",
+                              }
+                            }
+                          >
+                            <DropdownAutoComplete
+                              alignMenu="right"
+                              items={
+                                Array [
                                   Object {
-                                    "textTransform": "none",
-                                  }
+                                    "label": <div
+                                      className="css-tkw8z0-verticalPaddingSmall css-1con10a-horizontalPaddingExtaSmall"
+                                    >
+                                      project-slug-2
+                                    </div>,
+                                    "searchKey": "project-slug-2",
+                                    "value": "3",
+                                  },
+                                ]
+                              }
+                              onSelect={[Function]}
+                            >
+                              <DropdownAutoCompleteMenu
+                                alignMenu="right"
+                                items={
+                                  Array [
+                                    Object {
+                                      "label": <div
+                                        className="css-tkw8z0-verticalPaddingSmall css-1con10a-horizontalPaddingExtaSmall"
+                                      >
+                                        project-slug-2
+                                      </div>,
+                                      "searchKey": "project-slug-2",
+                                      "value": "3",
+                                    },
+                                  ]
                                 }
+                                onSelect={[Function]}
                               >
-                                <DropdownAutoComplete
-                                  alignMenu="right"
-                                  items={
-                                    Array [
-                                      Object {
-                                        "label": <ProjectListElement>
-                                          project-slug-2
-                                        </ProjectListElement>,
-                                        "searchKey": "project-slug-2",
-                                        "value": "3",
-                                      },
-                                    ]
-                                  }
+                                <AutoComplete
+                                  itemToString={[Function]}
                                   onSelect={[Function]}
                                 >
-                                  <DropdownAutoCompleteMenu
-                                    alignMenu="right"
-                                    items={
-                                      Array [
-                                        Object {
-                                          "label": <ProjectListElement>
-                                            project-slug-2
-                                          </ProjectListElement>,
-                                          "searchKey": "project-slug-2",
-                                          "value": "3",
-                                        },
-                                      ]
-                                    }
-                                    onSelect={[Function]}
+                                  <DropdownMenu
+                                    isOpen={false}
+                                    keepMenuOpen={false}
+                                    onClickOutside={[Function]}
                                   >
-                                    <AutoComplete
-                                      itemToString={[Function]}
-                                      onSelect={[Function]}
-                                    >
-                                      <DropdownMenu
-                                        isOpen={false}
-                                        keepMenuOpen={false}
-                                        onClickOutside={[Function]}
+                                    <AutoCompleteRoot>
+                                      <Component
+                                        className="glamor-17 glamor-18"
                                       >
-                                        <AutoCompleteRoot>
-                                          <Component
-                                            className="glamor-17 glamor-18"
+                                        <div
+                                          className="glamor-17 glamor-18"
+                                        >
+                                          <div
+                                            onClick={[Function]}
+                                            onMouseEnter={[Function]}
+                                            onMouseLeave={[Function]}
+                                            role="button"
                                           >
-                                            <div
-                                              className="glamor-17 glamor-18"
+                                            <DropdownButton
+                                              isOpen={false}
+                                              size="xsmall"
                                             >
-                                              <div
-                                                onClick={[Function]}
-                                                onMouseEnter={[Function]}
-                                                onMouseLeave={[Function]}
-                                                role="button"
+                                              <StyledButton
+                                                isOpen={false}
+                                                size="xsmall"
                                               >
-                                                <DropdownButton
+                                                <Component
+                                                  className="glamor-11 glamor-12"
                                                   isOpen={false}
                                                   size="xsmall"
                                                 >
-                                                  <StyledButton
-                                                    isOpen={false}
+                                                  <Button
+                                                    className="glamor-11 glamor-12"
+                                                    disabled={false}
                                                     size="xsmall"
                                                   >
-                                                    <Component
-                                                      className="glamor-11 glamor-12"
-                                                      isOpen={false}
-                                                      size="xsmall"
+                                                    <button
+                                                      className="glamor-11 glamor-12 button button-default button-xs"
+                                                      disabled={false}
+                                                      onClick={[Function]}
+                                                      role="button"
                                                     >
-                                                      <Button
-                                                        className="glamor-11 glamor-12"
-                                                        disabled={false}
-                                                        size="xsmall"
+                                                      <Flex
+                                                        align="center"
+                                                        className="button-label"
                                                       >
-                                                        <button
-                                                          className="glamor-11 glamor-12 button button-default button-xs"
-                                                          disabled={false}
-                                                          onClick={[Function]}
-                                                          role="button"
+                                                        <Base
+                                                          align="center"
+                                                          className="button-label glamor-9"
                                                         >
-                                                          <Flex
-                                                            align="center"
-                                                            className="button-label"
+                                                          <div
+                                                            className="button-label glamor-9"
+                                                            is={null}
                                                           >
-                                                            <Base
-                                                              align="center"
-                                                              className="button-label glamor-9"
-                                                            >
-                                                              <div
-                                                                className="button-label glamor-9"
-                                                                is={null}
+                                                            Add Project
+                                                            <StyledChevronDown>
+                                                              <Component
+                                                                className="glamor-3 glamor-0"
                                                               >
-                                                                Add Project
-                                                                <StyledChevronDown>
-                                                                  <Component
+                                                                <InlineSvg
+                                                                  className="glamor-3 glamor-0"
+                                                                  src="icon-chevron-down"
+                                                                >
+                                                                  <StyledSvg
                                                                     className="glamor-3 glamor-0"
+                                                                    height="1em"
+                                                                    style={Object {}}
+                                                                    viewBox={Object {}}
+                                                                    width="1em"
                                                                   >
-                                                                    <InlineSvg
-                                                                      className="glamor-3 glamor-0"
-                                                                      src="icon-chevron-down"
+                                                                    <svg
+                                                                      className="glamor-0 glamor-1 glamor-2"
+                                                                      height="1em"
+                                                                      style={Object {}}
+                                                                      viewBox={Object {}}
+                                                                      width="1em"
                                                                     >
-                                                                      <StyledSvg
-                                                                        className="glamor-3 glamor-0"
-                                                                        height="1em"
-                                                                        style={Object {}}
-                                                                        viewBox={Object {}}
-                                                                        width="1em"
-                                                                      >
-                                                                        <svg
-                                                                          className="glamor-0 glamor-1 glamor-2"
-                                                                          height="1em"
-                                                                          style={Object {}}
-                                                                          viewBox={Object {}}
-                                                                          width="1em"
-                                                                        >
-                                                                          <use
-                                                                            href="#test"
-                                                                            xlinkHref="#test"
-                                                                          />
-                                                                        </svg>
-                                                                      </StyledSvg>
-                                                                    </InlineSvg>
-                                                                  </Component>
-                                                                </StyledChevronDown>
-                                                              </div>
-                                                            </Base>
-                                                          </Flex>
-                                                        </button>
-                                                      </Button>
-                                                    </Component>
-                                                  </StyledButton>
-                                                </DropdownButton>
-                                              </div>
-                                            </div>
-                                          </Component>
-                                        </AutoCompleteRoot>
-                                      </DropdownMenu>
-                                    </AutoComplete>
-                                  </DropdownAutoCompleteMenu>
-                                </DropdownAutoComplete>
-                              </div>
-                            </div>
-                          </PanelHeaderContentContainer>
+                                                                      <use
+                                                                        href="#test"
+                                                                        xlinkHref="#test"
+                                                                      />
+                                                                    </svg>
+                                                                  </StyledSvg>
+                                                                </InlineSvg>
+                                                              </Component>
+                                                            </StyledChevronDown>
+                                                          </div>
+                                                        </Base>
+                                                      </Flex>
+                                                    </button>
+                                                  </Button>
+                                                </Component>
+                                              </StyledButton>
+                                            </DropdownButton>
+                                          </div>
+                                        </div>
+                                      </Component>
+                                    </AutoCompleteRoot>
+                                  </DropdownMenu>
+                                </AutoComplete>
+                              </DropdownAutoCompleteMenu>
+                            </DropdownAutoComplete>
+                          </div>
                         </div>
-                      </PanelHeading>
-                    </Component>
-                  </StyledPanelHeading>
-                </div>
-              </Component>
-            </StyledPanelHeader>
-          </PanelHeader>
-          <PanelBody
-            direction="column"
-            disablePadding={true}
-            flex={false}
+                      </div>
+                    </PanelHeading>
+                  </Component>
+                </StyledPanelHeading>
+              </div>
+            </Component>
+          </StyledPanelHeader>
+        </PanelHeader>
+        <PanelBody
+          direction="column"
+          disablePadding={true}
+          flex={false}
+        >
+          <div
+            className=""
           >
-            <div
-              className=""
+            <PanelItem
+              className="glamor-21 glamor-22"
+              key="2"
+              p={2}
             >
               <StyledPanelItem
-                key="2"
+                className="glamor-21 glamor-22"
+                p={2}
               >
-                <PanelItem
-                  className="glamor-60 glamor-54"
+                <Base
+                  className="glamor-54 glamor-55"
                   p={2}
                 >
-                  <StyledPanelItem
-                    className="glamor-60 glamor-54"
-                    p={2}
+                  <div
+                    className="glamor-54 glamor-55"
+                    is={null}
                   >
-                    <Base
-                      className="glamor-54 glamor-55 glamor-56"
-                      p={2}
+                    <ProjectItem
+                      organization={
+                        Object {
+                          "access": Array [
+                            "org:read",
+                            "org:write",
+                            "org:admin",
+                            "project:read",
+                            "project:write",
+                            "project:admin",
+                            "team:read",
+                            "team:write",
+                            "team:admin",
+                          ],
+                          "features": Array [],
+                          "id": "3",
+                          "name": "Organization Name",
+                          "onboardingTasks": Array [],
+                          "projects": Array [],
+                          "slug": "org-slug",
+                          "status": Object {
+                            "id": "active",
+                            "name": "active",
+                          },
+                          "teams": Array [],
+                        }
+                      }
+                      project={
+                        Object {
+                          "hasAccess": true,
+                          "id": "2",
+                          "isBookmarked": false,
+                          "isMember": true,
+                          "name": "Project Name",
+                          "slug": "project-slug",
+                          "teams": Array [
+                            Object {
+                              "id": "1",
+                              "name": "Team Name",
+                              "slug": "team-slug",
+                            },
+                          ],
+                        }
+                      }
                     >
                       <div
-                        className="glamor-54 glamor-55 glamor-56"
-                        is={null}
+                        className={null}
+                        key="2"
                       >
-                        <ProjectItem
-                          organization={
-                            Object {
-                              "access": Array [
-                                "org:read",
-                                "org:write",
-                                "org:admin",
-                                "project:read",
-                                "project:write",
-                                "project:admin",
-                                "team:read",
-                                "team:write",
-                                "team:admin",
-                              ],
-                              "features": Array [],
-                              "id": "3",
-                              "name": "Organization Name",
-                              "onboardingTasks": Array [],
-                              "projects": Array [],
-                              "slug": "org-slug",
-                              "status": Object {
-                                "id": "active",
-                                "name": "active",
-                              },
-                              "teams": Array [],
-                            }
-                          }
-                          project={
-                            Object {
-                              "hasAccess": true,
-                              "id": "2",
-                              "isBookmarked": false,
-                              "isMember": true,
-                              "name": "Project Name",
-                              "slug": "project-slug",
-                              "teams": Array [
-                                Object {
-                                  "id": "1",
-                                  "name": "Team Name",
-                                  "slug": "team-slug",
-                                },
-                              ],
-                            }
-                          }
+                        <Tooltip
+                          title="Add to bookmarks"
                         >
-                          <div
-                            className={null}
-                            key="2"
+                          <InlineButton
+                            className="tip"
+                            onClick={[Function]}
+                            title="Add to bookmarks"
                           >
-                            <Tooltip
+                            <button
+                              className="tip glamor-34 glamor-35"
+                              onClick={[Function]}
                               title="Add to bookmarks"
                             >
-                              <InlineButton
-                                className="tip"
-                                onClick={[Function]}
-                                title="Add to bookmarks"
+                              <span
+                                className="icon-star-outline bookmark"
+                              />
+                            </button>
+                          </InlineButton>
+                        </Tooltip>
+                        <Link
+                          className="glamor-40"
+                          to="/settings/organization/org-slug/project/project-slug/"
+                        >
+                          <Link
+                            className="glamor-40"
+                            onlyActiveOnIndex={false}
+                            style={Object {}}
+                            to="/settings/organization/org-slug/project/project-slug/"
+                          >
+                            <a
+                              className="glamor-40"
+                              onClick={[Function]}
+                              style={Object {}}
+                            >
+                              <StyledProjectLabel
+                                organization={
+                                  Object {
+                                    "access": Array [
+                                      "org:read",
+                                      "org:write",
+                                      "org:admin",
+                                      "project:read",
+                                      "project:write",
+                                      "project:admin",
+                                      "team:read",
+                                      "team:write",
+                                      "team:admin",
+                                    ],
+                                    "features": Array [],
+                                    "id": "3",
+                                    "name": "Organization Name",
+                                    "onboardingTasks": Array [],
+                                    "projects": Array [],
+                                    "slug": "org-slug",
+                                    "status": Object {
+                                      "id": "active",
+                                      "name": "active",
+                                    },
+                                    "teams": Array [],
+                                  }
+                                }
+                                project={
+                                  Object {
+                                    "hasAccess": true,
+                                    "id": "2",
+                                    "isBookmarked": false,
+                                    "isMember": true,
+                                    "name": "Project Name",
+                                    "slug": "project-slug",
+                                    "teams": Array [
+                                      Object {
+                                        "id": "1",
+                                        "name": "Team Name",
+                                        "slug": "team-slug",
+                                      },
+                                    ],
+                                  }
+                                }
                               >
-                                <button
-                                  className="tip glamor-34 glamor-35"
-                                  onClick={[Function]}
-                                  title="Add to bookmarks"
+                                <ProjectLabel
+                                  className="glamor-36 glamor-37"
+                                  organization={
+                                    Object {
+                                      "access": Array [
+                                        "org:read",
+                                        "org:write",
+                                        "org:admin",
+                                        "project:read",
+                                        "project:write",
+                                        "project:admin",
+                                        "team:read",
+                                        "team:write",
+                                        "team:admin",
+                                      ],
+                                      "features": Array [],
+                                      "id": "3",
+                                      "name": "Organization Name",
+                                      "onboardingTasks": Array [],
+                                      "projects": Array [],
+                                      "slug": "org-slug",
+                                      "status": Object {
+                                        "id": "active",
+                                        "name": "active",
+                                      },
+                                      "teams": Array [],
+                                    }
+                                  }
+                                  project={
+                                    Object {
+                                      "hasAccess": true,
+                                      "id": "2",
+                                      "isBookmarked": false,
+                                      "isMember": true,
+                                      "name": "Project Name",
+                                      "slug": "project-slug",
+                                      "teams": Array [
+                                        Object {
+                                          "id": "1",
+                                          "name": "Team Name",
+                                          "slug": "team-slug",
+                                        },
+                                      ],
+                                    }
+                                  }
                                 >
                                   <span
-                                    className="icon-star-outline bookmark"
-                                  />
-                                </button>
-                              </InlineButton>
-                            </Tooltip>
-                            <Link
-                              className="glamor-40"
-                              to="/settings/organization/org-slug/project/project-slug/"
-                            >
-                              <Link
-                                className="glamor-40"
-                                onlyActiveOnIndex={false}
-                                style={Object {}}
-                                to="/settings/organization/org-slug/project/project-slug/"
-                              >
-                                <a
-                                  className="glamor-40"
-                                  onClick={[Function]}
-                                  style={Object {}}
-                                >
-                                  <StyledProjectLabel
+                                    className="glamor-36 glamor-37"
                                     organization={
                                       Object {
                                         "access": Array [
@@ -490,182 +585,88 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                                       }
                                     }
                                   >
-                                    <ProjectLabel
-                                      className="glamor-36 glamor-37"
-                                      organization={
-                                        Object {
-                                          "access": Array [
-                                            "org:read",
-                                            "org:write",
-                                            "org:admin",
-                                            "project:read",
-                                            "project:write",
-                                            "project:admin",
-                                            "team:read",
-                                            "team:write",
-                                            "team:admin",
-                                          ],
-                                          "features": Array [],
-                                          "id": "3",
-                                          "name": "Organization Name",
-                                          "onboardingTasks": Array [],
-                                          "projects": Array [],
-                                          "slug": "org-slug",
-                                          "status": Object {
-                                            "id": "active",
-                                            "name": "active",
-                                          },
-                                          "teams": Array [],
-                                        }
-                                      }
-                                      project={
-                                        Object {
-                                          "hasAccess": true,
-                                          "id": "2",
-                                          "isBookmarked": false,
-                                          "isMember": true,
-                                          "name": "Project Name",
-                                          "slug": "project-slug",
-                                          "teams": Array [
-                                            Object {
-                                              "id": "1",
-                                              "name": "Team Name",
-                                              "slug": "team-slug",
-                                            },
-                                          ],
-                                        }
-                                      }
+                                    <span
+                                      className="project-name"
                                     >
-                                      <span
-                                        className="glamor-36 glamor-37"
-                                        organization={
-                                          Object {
-                                            "access": Array [
-                                              "org:read",
-                                              "org:write",
-                                              "org:admin",
-                                              "project:read",
-                                              "project:write",
-                                              "project:admin",
-                                              "team:read",
-                                              "team:write",
-                                              "team:admin",
-                                            ],
-                                            "features": Array [],
-                                            "id": "3",
-                                            "name": "Organization Name",
-                                            "onboardingTasks": Array [],
-                                            "projects": Array [],
-                                            "slug": "org-slug",
-                                            "status": Object {
-                                              "id": "active",
-                                              "name": "active",
-                                            },
-                                            "teams": Array [],
-                                          }
-                                        }
-                                        project={
-                                          Object {
-                                            "hasAccess": true,
-                                            "id": "2",
-                                            "isBookmarked": false,
-                                            "isMember": true,
-                                            "name": "Project Name",
-                                            "slug": "project-slug",
-                                            "teams": Array [
-                                              Object {
-                                                "id": "1",
-                                                "name": "Team Name",
-                                                "slug": "team-slug",
-                                              },
-                                            ],
-                                          }
-                                        }
-                                      >
-                                        <span
-                                          className="project-name"
-                                        >
-                                          Project Name
-                                        </span>
-                                      </span>
-                                    </ProjectLabel>
-                                  </StyledProjectLabel>
-                                </a>
-                              </Link>
-                            </Link>
-                          </div>
-                        </ProjectItem>
-                        <Button
-                          disabled={false}
-                          onClick={[Function]}
-                          size="small"
-                        >
-                          <button
-                            className="button button-default button-sm"
-                            disabled={false}
-                            onClick={[Function]}
-                            role="button"
-                          >
-                            <Flex
-                              align="center"
-                              className="button-label"
-                            >
-                              <Base
-                                align="center"
-                                className="button-label glamor-9"
-                              >
-                                <div
-                                  className="button-label glamor-9"
-                                  is={null}
-                                >
-                                  <RemoveIcon>
-                                    <Component
-                                      className="glamor-46 glamor-43"
-                                    >
-                                      <InlineSvg
-                                        className="glamor-46 glamor-43"
-                                        src="icon-circle-subtract"
-                                      >
-                                        <StyledSvg
-                                          className="glamor-46 glamor-43"
-                                          height="1em"
-                                          style={Object {}}
-                                          viewBox={Object {}}
-                                          width="1em"
-                                        >
-                                          <svg
-                                            className="glamor-43 glamor-44 glamor-2"
-                                            height="1em"
-                                            style={Object {}}
-                                            viewBox={Object {}}
-                                            width="1em"
-                                          >
-                                            <use
-                                              href="#test"
-                                              xlinkHref="#test"
-                                            />
-                                          </svg>
-                                        </StyledSvg>
-                                      </InlineSvg>
-                                    </Component>
-                                  </RemoveIcon>
-                                   
-                                  Remove
-                                </div>
-                              </Base>
-                            </Flex>
-                          </button>
-                        </Button>
+                                      Project Name
+                                    </span>
+                                  </span>
+                                </ProjectLabel>
+                              </StyledProjectLabel>
+                            </a>
+                          </Link>
+                        </Link>
                       </div>
-                    </Base>
-                  </StyledPanelItem>
-                </PanelItem>
+                    </ProjectItem>
+                    <Button
+                      disabled={false}
+                      onClick={[Function]}
+                      size="small"
+                    >
+                      <button
+                        className="button button-default button-sm"
+                        disabled={false}
+                        onClick={[Function]}
+                        role="button"
+                      >
+                        <Flex
+                          align="center"
+                          className="button-label"
+                        >
+                          <Base
+                            align="center"
+                            className="button-label glamor-9"
+                          >
+                            <div
+                              className="button-label glamor-9"
+                              is={null}
+                            >
+                              <RemoveIcon>
+                                <Component
+                                  className="glamor-46 glamor-43"
+                                >
+                                  <InlineSvg
+                                    className="glamor-46 glamor-43"
+                                    src="icon-circle-subtract"
+                                  >
+                                    <StyledSvg
+                                      className="glamor-46 glamor-43"
+                                      height="1em"
+                                      style={Object {}}
+                                      viewBox={Object {}}
+                                      width="1em"
+                                    >
+                                      <svg
+                                        className="glamor-43 glamor-44 glamor-2"
+                                        height="1em"
+                                        style={Object {}}
+                                        viewBox={Object {}}
+                                        width="1em"
+                                      >
+                                        <use
+                                          href="#test"
+                                          xlinkHref="#test"
+                                        />
+                                      </svg>
+                                    </StyledSvg>
+                                  </InlineSvg>
+                                </Component>
+                              </RemoveIcon>
+                               
+                              Remove
+                            </div>
+                          </Base>
+                        </Flex>
+                      </button>
+                    </Button>
+                  </div>
+                </Base>
               </StyledPanelItem>
-            </div>
-          </PanelBody>
-        </div>
-      </StyledPanel>
-    </Panel>
-  </div>
+            </PanelItem>
+          </div>
+        </PanelBody>
+      </div>
+    </StyledPanel>
+  </Panel>
 </TeamProjects>
 `;

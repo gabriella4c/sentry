@@ -55,12 +55,15 @@ exports[`OrganizationProjectsView render() Should render the projects in the sto
 }
 
 .glamor-26 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
   border-bottom: 1px solid;
   border-radius: 0 0;
   text-transform: uppercase;
   font-size: 13px;
   line-height: 1;
-  padding: 15px 20px;
 }
 
 .glamor-22 {
