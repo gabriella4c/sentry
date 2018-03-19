@@ -1752,6 +1752,14 @@ ul.faces {
 * ============================================================================
 */
 
+.group-detail {
+  .assignee-selector {
+    .dropdown-menu {
+      top: 10px;
+    }
+  }
+}
+
 .assignee-selector {
   height: 24px;
   display: flex;
@@ -1774,15 +1782,6 @@ ul.faces {
   .icon-arrow-down {
     right: -2px;
     top: 0;
-  }
-
-  .avatar {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    position: relative;
-    left: -2px;
-    top: -1px;
   }
 
   .dropdown-toggle {
@@ -1842,22 +1841,7 @@ ul.faces {
       }
 
       a {
-        padding: 5px 8px;
-        display: block;
-        padding-left: 33px;
-        position: relative;
-        max-width: 100%;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        text-align: left;
-
-        span.avatar {
-          margin-right: 5px;
-          position: absolute;
-          left: 8px;
-          top: 4px;
-          .square(20px);
-        }
+        padding: 0;
       }
     }
   }
@@ -1874,9 +1858,6 @@ ul.faces {
   .invite-member a {
     .icon-plus {
       font-size: 16px;
-      position: absolute;
-      left: 10px;
-      top: 4px;
       opacity: 0.3;
     }
   }
@@ -1885,16 +1866,6 @@ ul.faces {
     background: rgba(52, 60, 69, 0.03);
     border-bottom: 1px solid rgba(52, 60, 69, 0.06);
     margin-top: -6px;
-    margin-bottom: 2px;
-    padding: 4px 0 2px 33px !important;
-
-    .icon-circle-cross {
-      font-size: 16px;
-      position: absolute;
-      left: 10px;
-      top: 4px;
-      opacity: 0.3;
-    }
   }
 
   .list-loading-container {

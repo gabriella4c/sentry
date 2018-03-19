@@ -1264,7 +1264,6 @@ exports[`AuditLogView renders 1`] = `
                                             gravatarId="billy@sentry.io"
                                             hasTooltip={false}
                                             letterId="billy@sentry.io"
-                                            size={64}
                                             style={
                                               Object {
                                                 "height": 36,
@@ -1608,7 +1607,6 @@ exports[`AuditLogView renders 1`] = `
                                             gravatarId="billy@sentry.io"
                                             hasTooltip={false}
                                             letterId="billy@sentry.io"
-                                            size={64}
                                             style={
                                               Object {
                                                 "height": 36,
